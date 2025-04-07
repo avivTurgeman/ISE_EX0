@@ -1,8 +1,8 @@
 class Moon:
     # Moon characteristics (from Wikipedia)
-    RADIUS = 1738 * 1000        # m, Moon's Radius
+    RADIUS = 3475 * 1000        # m, Moon's Radius
     SURFACE_GRAVITY = 1.622     # m/s², Moon's Surface gravity
-    ORBIT_EV = 2380             # m/s, Moon's Escape Velocity
+    ORBIT_EV = 1700             # m/s, Moon's Escape Velocity
 
     @staticmethod
     def gravitational_pull_acc(horizontal_speed):
